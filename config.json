@@ -1,44 +1,38 @@
 {
     "language": "vi",
-    "notiGroup": true,
-    "MAINTENANCE": false,
-    "allowInbox": false,
-    "BOTNAME": " 💢 ",
-    "AMDIN_NAME": "Lương Trường Khôi",
-    "keyRent": "Lunar",
-    "FACEBOOK_ADMIN": "",
-    "PREFIX": ".",
-    "box_admin": "",
+    "DeveloperMode": false,
+    "autoCreateDB": true,
+    "iconUnsend": {
+        "status": true,
+        "icon": "🌸"
+    },
+    "notiGroup": false,
+    "NOTIFICATION": true,
+    "allowInbox": true,
+    "commandDisabled": [],
+    "eventDisabled": [],
+    "BOTNAME": "𝓚𝓱𝓾𝓶𝓫𝓲𝓽𝓬𝓸𝓭𝓮 - 𝓗𝓛🌸",
+    "AMDIN_NAME": "Hoàng Lộc",
+    "FACEBOOK_ADMIN": "https://www.facebook.com/mekedoi",
+    "PREFIX": "$",
     "ADMINBOT": [
-        "",
-        ""
+        "61550093690661",
+        "100093226147361",
+        "100085195421962",
+        "61579180996279"
     ],
     "NDH": [
-        "",
-        ""
+        "61550093690661",
+        "100093226147361",
+        "100085195421962"
     ],
-    "autoCleanCache": {
-        "Enable": true,
-        "CachePaths": [
-            "./modules/commands/Tiện ích/cache",
-            "./modules/commands/Thống kê/cache",
-            "./modules/commands/Admin/cache",
-            "./modules/commands/Coin/cache",
-            "./modules/commands/Game/cache",
-            "./modules/commands/Nhóm/cache"
-        ],
-        "AllowFileExtension": [
-            ".png",
-            ".jpg",
-            ".jpeg",
-            ".mp4",
-            ".mp3",
-            ".m4a",
-            ".ttf",
-            ".gif"
-        ]
+    "DATABASE": {
+        "sqlite": {
+            "storage": "data.sqlite"
+        }
     },
-	"FCAOption": {
+    "APPSTATEPATH": "appstate.json",
+    "FCAOption": {
         "forceLogin": true,
         "listenEvents": true,
         "pauseLog": true,
@@ -46,10 +40,57 @@
         "selfListen": false,
         "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Mobile/15E148 Safari/604.1"
     },
-    "version": "5.0.0",
-    "ACCESSTOKEN": "EAAAAUaZA8jlABO3qZB6kq7FRg2EFbpjWAFkgXxex0y1NDfewZBYZBeEqRR0pXYYC0XjCDSYNlliqSUxfsT1h4mj1PRQHfnSnE2iI6MtYts7lY5bIKqY8y8zr7b7UszJnyrJzrS7QUjEgHUeWg9nBOmXSctr8f1B2ZA4qgqZAlUiyg0JYVOCqDYZCiYckAZDZD",
-    "leave": {
-        "status": false,
-        "number": 5
+    "version": "1.2.14",
+    "cave": {
+        "cooldownTime": 100000
+    },
+    "daily": {
+        "cooldownTime": 540000,
+        "rewardCoin": 500
+    },
+    "math": {
+        "WOLFRAM": "T8J8YV-H265UQ762K"
+    },
+    "menu": {
+        "autoUnsend": {
+            "status": true,
+            "timeOut": 60
+        },
+        "sendAttachments": {
+            "status": true,
+            "random": true,
+            "url": "https://i.imgur.com/LKkw8SL.jpg"
+        }
+    },
+    "minecraft": {
+        "APIKEY": ""
+    },
+    "randomname": {
+        "APIKEY": "mi451266190"
+    },
+    "subnau": {
+        "APIKEY": ""
+    },
+    "tikinfo": {
+        "apikey": "fOeckmtu"
+    },
+    "xidach": {
+        "maxPlayers": 5,
+        "normalWinBonus": 1,
+        "superWinBonus": 2,
+        "epicWinBonus": 4
+    },
+    "log": {
+        "enable": true
+    },
+    "spam": {
+        "spamDelay": 2
+    },
+    "subnautica": {
+        "APIKEY": ""
+    },
+    "adminOnly": false,
+    "video": {
+        "YOUTUBE_API": "AIzaSyBZosAoab1UH8ze1zFegz6wnppkf-quu7c"
     }
 }
